@@ -8,9 +8,9 @@ Run these notebooks **in order**:
 
 | # | Notebook | Output |
 |---|----------|--------|
-| 1 | [`scene_detection_part_5.ipynb`](scene_detection_part_5.ipynb) | Face-containing video segments (TransNetV2 + dlib) |
-| 2 | [`Landmarks,MAR,EAR_extraction_part_5.ipynb`](Landmarks,MAR,EAR_extraction_part_5.ipynb) | Landmarks, EAR, MAR CSV (SPIGA) |
-| 3 | [`fusion_1_BN_leaky+weightedfusion_30.ipynb`](fusion_1_BN_leaky+weightedfusion_30.ipynb) | Trained drunk/sober model |
+| 1 | [`scene_detection.ipynb`](scene_detection.ipynb) | Face-containing video segments (TransNetV2 + dlib) |
+| 2 | [`Landmarks,MAR,EAR_extraction.ipynb`](Landmarks,MAR,EAR_extraction.ipynb) | Landmarks, EAR, MAR CSV (SPIGA) |
+| 3 | [`Model.ipynb`](Model.ipynb) | Trained drunk/sober model |
 
 **Fusion model:** R3D-18 on 16-frame clips + GAT-LSTM on 68 landmarks, merged with learnable weighted fusion. Subject-based train/val split to avoid leakage.
 
