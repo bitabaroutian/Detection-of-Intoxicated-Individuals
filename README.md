@@ -37,6 +37,3 @@ Update paths in each notebook before running. Training cells in notebook 3 are c
 - Install: PyTorch, torch-geometric, OpenCV, pandas, numpy, scikit-learn, dlib, tensorflow
 
 Colab-specific cells (Drive mount, `apt-get`) are commented out; uncomment only if using Colab.
-
-
-Specify your license here before publishing.
